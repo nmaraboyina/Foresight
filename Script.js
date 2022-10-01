@@ -1,7 +1,7 @@
-if(true){
+document.getElementsById.addEventListener.TurnOn;
 document.getElementsById("OnButton").addEventListener("click", TurnOn);
 document.getElementsById("OffButton").addEventListener("click", TurnOff);
-}
+
 function TurnOn(){
     const pricesClass = document.getElementsByClassName("a-price-whole");
     const pricesClassDecimal = document.getElementsByClassName("a-price-fraction");
