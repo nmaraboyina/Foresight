@@ -1,2 +1,3 @@
 # Foresight
-Google Add-on with tax 
+Google Add-on to calculate tax
+
