@@ -1,6 +1,6 @@
-document.getElementsById.addEventListener.TurnOn;
-document.getElementsById("OnButton").addEventListener("click", TurnOn);
-document.getElementsById("OffButton").addEventListener("click", TurnOff);
+
+document.getElementById("OnButton").addEventListener("click", TurnOn);
+document.getElementById("OffButton").addEventListener("click", TurnOff);
 
 function TurnOn(){
     const pricesClass = document.getElementsByClassName("a-price-whole");
