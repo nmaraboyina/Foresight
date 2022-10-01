@@ -6,7 +6,6 @@
     "description": "Forseight Info",
    
     "content_scripts": [{
-      "css": ["styles.css"],
       "js": ["Script.js"],
       "matches": ["https://www.amazon.com/*"]
     }]
