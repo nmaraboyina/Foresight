@@ -1,13 +1,12 @@
 {
-    "manifest_version": 1,
+    "manifest_version": 3,
    
     "name": "Foresight",
     "version": "0.1.0",
     "description": "Forseight Info",
    
     "content_scripts": [{
-      "css": ["styles.css"],
-      "js": ["content.js"],
+      "js": ["Script.js"],
+      "matches": ["https://www.amazon.com/*"]
     }]
-   
-  }
+}
