@@ -1,6 +1,6 @@
 
 if (document.title.indexOf("Amazon") != -1) {
     
-    document.getElementById("a-price-whole").class = "69";
+    document.getElementsByClassName("a-price-whole") = "69";
 
 }
