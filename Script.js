@@ -1,4 +1,8 @@
-function OnClick(){
+
+document.getElementById("OnButton").addEventListener("click", TurnOn);
+document.getElementById("OffButton").addEventListener("click", TurnOff);
+
+function TurnOn(){
     const pricesClass = document.getElementsByClassName("a-price-whole");
     const pricesClassDecimal = document.getElementsByClassName("a-price-fraction");
     for (let i = 0; i < pricesClass.length; i++) {
@@ -14,7 +18,7 @@ function OnClick(){
     }
 }
 
-function OffClick(){
+function TurnOff(){
     const pricesClass = document.getElementsByClassName("a-price-whole");
     const pricesClassDecimal = document.getElementsByClassName("a-price-fraction");
     for (let i = 0; i < pricesClass.length; i++) {
