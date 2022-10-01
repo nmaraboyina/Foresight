@@ -4,13 +4,16 @@
     "name": "Foresight",
     "version": "0.1.0",
     "description": "Foresight Info",
+    "content_scripts": [{
+      "css": ["Foresight.css"],
+      "js": ["Script.js"],
+      "matches": ["https://Amazon/*"]
+    }],
     "permissions": [
     "activeTab"
     ],
-   
-    "content_scripts": [{
-      "js": ["Script.js"],
-      "matches": ["https://www.amazon.com/*"],
-      "default_popup": ["Foresight.html"]
-    }]
+    "action": {
+      "default_title": "Click to view a popup",
+      "default_popup": "Foresight.html"
+    }
 }
