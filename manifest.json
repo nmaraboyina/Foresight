@@ -9,9 +9,6 @@
       "js": ["Script.js"],
       "matches": ["https://Amazon/*"]
     }],
-    "permissions": [
-    "activeTab"
-    ],
     "action": {
       "default_title": "Click to view a popup",
       "default_popup": "Foresight.html"

@@ -1,13 +1,10 @@
-document.body.appendChild(["Foresight.html"]);
-
 function OnClick(){
     const pricesClass = document.getElementsByClassName("a-price-whole");
     const pricesClassDecimal = document.getElementsByClassName("a-price-fraction");
-    document. 
     for (let i = 0; i < pricesClass.length; i++) {
         let whole = parseInt(pricesClass[i].innerHTML);
         let fraction = parseInt(pricesClassDecimal[i].innerHTML);
-        let total = whole+(fraction*0.01)
+        let total = (whole+(fraction*0.01));
         let tax = 0.065;
         let fvalue = total + (total*tax);
         let fvalueWhole = Math.round(fvalue);
@@ -23,7 +20,7 @@ function OffClick(){
     for (let i = 0; i < pricesClass.length; i++) {
         let whole = parseInt(pricesClass[i].innerHTML);
         let fraction = parseInt(pricesClassDecimal[i].innerHTML);
-        let total = whole+(fraction*0.01)
+        let total = whole+(fraction*0.01);
         let tax = 0.065;
         let fvalue = total - (total*tax);
         let fvalueWhole = Math.round(fvalue);
