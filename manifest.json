@@ -4,6 +4,9 @@
     "name": "Foresight",
     "version": "0.1.0",
     "description": "Forseight Info",
+    "permissions": [
+    "activeTab"
+    ],
    
     "content_scripts": [{
       "js": ["Script.js"],
