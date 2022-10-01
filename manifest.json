@@ -1,0 +1,14 @@
+{
+    "manifest_version": 1,
+   
+    "name": "Foresight",
+    "version": "0.1.0",
+    "description": "Forseight Info",
+   
+    "content_scripts": [{
+      "css": ["styles.css"],
+      "js": ["content.js"],
+      "matches": ["https://blog.lateral.io/*"]
+    }]
+   
+  }
