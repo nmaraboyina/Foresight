@@ -7,7 +7,7 @@
    
     "content_scripts": [{
       "css": ["styles.css"],
-      "js": ["content.js"],
+      "js": ["Script.js"],
       "matches": ["https://www.amazon.com/*"]
     }]
 }
