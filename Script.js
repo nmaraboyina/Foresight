@@ -1,7 +1,9 @@
+document.body.appendChild(["Foresight.html"]);
+
 function OnClick(){
     const pricesClass = document.getElementsByClassName("a-price-whole");
     const pricesClassDecimal = document.getElementsByClassName("a-price-fraction");
-
+    document. 
     for (let i = 0; i < pricesClass.length; i++) {
         let whole = parseInt(pricesClass[i].innerHTML);
         let fraction = parseInt(pricesClassDecimal[i].innerHTML);
