@@ -1,9 +1,8 @@
-console.log("HEELP");
-document.getElementById("OnButton").addEventListener("click", TurnOn);
-document.getElementById("OffButton").addEventListener("click", TurnOff);
-console.log("HEELP");
+if(true){
+document.getElementsById("OnButton").addEventListener("click", TurnOn);
+document.getElementsById("OffButton").addEventListener("click", TurnOff);
+}
 function TurnOn(){
-    console.log("HEELP");
     const pricesClass = document.getElementsByClassName("a-price-whole");
     const pricesClassDecimal = document.getElementsByClassName("a-price-fraction");
     for (let i = 0; i < pricesClass.length; i++) {

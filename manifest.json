@@ -6,8 +6,7 @@
     "description": "Foresight Info",
     "content_scripts": [{
       "css": ["Foresight.css"],
-      "js": ["Script.js"],
-      "matches": ["https://Amazon/*"]
+      "matches": ["https://www.amazon.com/*"]
     }],
     "action": {
       "default_title": "Click to view a popup",
